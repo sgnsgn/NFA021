@@ -1,0 +1,5 @@
+AuthUserFile /Applications/MAMP/htdocs/ProjetNFA021/.htpasswd
+AuthName "L'accès à ce répertoire est sécurisé."
+AuthType Basic
+Require valid-user
+Satisfy All

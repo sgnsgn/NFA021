@@ -1,0 +1,13 @@
+# HTID:19815754: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:19815754:
+
+# Empêcher le listing de vos répertoires
+ Options All -Indexes
+
+# CUSTOM ERROR PAGES 
+ ErrorDocument 404 "<h1>404 Error</h1><p>Page not found...</p>"
+
+# Redirection simple
+# Redirect http://www.google.fr/
+
